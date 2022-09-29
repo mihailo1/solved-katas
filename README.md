@@ -3,7 +3,6 @@
 ### JavaScript
 ```javascript
 function simplify(poly) {
-  console.log(poly)
   return poly
     .replace(/-/g, "+-")
     .split("+")
